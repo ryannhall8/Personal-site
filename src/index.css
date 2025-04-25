@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f9d5e5;
+    color: #db2777;
+  }
+
+  /*nav bar and heading*/
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f9d5e5;
+  }
+  
+  .nav-links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #db2777;
+  }
+
+  /*home page*/
+  
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .homepage-container img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 1rem 0;
+  }
+  
+  .about {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #ffe4ec;
+    color: #db2777;
+    border-radius: 1.5rem;
+  }
+  
+  .about h2 {
+    margin-bottom: 1rem;
+  }
+    
+/*projects*/
+
+.projects-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffe4ec;
+  color: #db2777;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(139, 0, 79, 0.2);
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 2px solid #db2777;
+  border-radius: 1.5rem;
+  text-align: left;
+}
+
+.project-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #db2777;
+}
+
+.project-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #db2777;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  transition: background-color 0.3s;
+}
+
+.project-link:hover {
+  background-color: #ff7b91;
+}
+
+.coming-soon-text {
+  font-size: 1.2rem;
+  color: #db2777;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+
+/*resume*/
+
+.resume-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #ffe4ec;
+    color: #db2777;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 12px rgba(139, 0, 79, 0.2);
+}
+
+  .resume-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #db2777;
+    color: #db2777;
+    background-color: transparent;
+    border-radius: 9999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 2rem;
+  }
+  
+  .resume-button:hover {
+    background-color: #db2777;
+    color: white;
+  }
+  
+  .resume-icon {
+    font-size: 1rem;
+  }
+
+  /*contact*/
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #ffe4ec;
+  color: #db2777;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 12px rgba(139, 0, 79, 0.2);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.75rem;
+    border: 2px solid #f4a4b4; /* soft pink border */
+    border-radius: 12px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #d13b6b; /* dark pink */
+  }
+  
+  .contact-form button {
+    background-color: transparent;
+    color: #d13b6b;
+    border: 2px solid #d13b6b;
+    border-radius: 999px; /* pill shape */
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .contact-form button:hover {
+    background-color: #d13b6b;
+    color: white;
+  }
+  
+  
+  
